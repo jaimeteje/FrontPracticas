@@ -7,6 +7,7 @@ const changeModalState = () => {
     }
 }
 
+
 const addContact = () => {
     const contactContainer = document.getElementById("contactContainer")
     const modalInput = document.getElementById("newContactInput")
