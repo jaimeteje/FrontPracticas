@@ -1,4 +1,3 @@
-
 const changeModalState = () => {
     const modal = document.getElementById("modal")
     if(modal.style.display === "block"){
@@ -7,7 +6,6 @@ const changeModalState = () => {
         modal.style.display = "block"
     }
 }
-
 
 const addContact = () => {
     const contactContainer = document.getElementById("contactContainer")
