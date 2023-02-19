@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Chat Practica 1</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="contactList" class="contactList">
+            <div id="contactContainer" class="contactContainer"></div>
+            <button id="newContact" class="newContact" onclick="changeModalState()">New Contact</button>
+        </div>
+        <div id="chatContainer" class="chatContainer">
+            <div id="contactInfo"></div>
+            <div id="messageFeed"></div>
+            <div id="inputContainer" class="inputContainer">
+                <input id="messageInput" type="text" placeholder="Write your message">
+                <button id="sendMessageButton" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modalContent">
+                <span class="close" onclick="changeModalState()">&times;</span>
+                <input id="newContactInput" type="text" placeholder="Add contact name">
+                <button id="newContactButton" onclick="addContact()">Add Contact</button>
+            </div>
+        </div>
+    </body>
+</html>
