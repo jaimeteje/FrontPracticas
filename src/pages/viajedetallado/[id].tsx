@@ -7,8 +7,6 @@ const Post = () => {
   const {id} =router.query;
   const destinos= destinations.find((destination) => destination.id === id);
 
-
-
   return (
     <div className="container-destination">
       <div className="destination-container">
@@ -22,9 +20,7 @@ const Post = () => {
         <button className="btn">VOLVER</button>
       </Link>
         </div>
-       
       </div>
-     
     </div>
 
   )
